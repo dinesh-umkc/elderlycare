@@ -36,8 +36,9 @@ async def getQuestions():
     questions.append(Question(uuid.uuid4().hex,row['question'], row['answer']))
   return questions
 
-@app.post("/answers/")
+@app.post("/answers")
 def computeScore(answers: List[Answer]):
+  score = 75
   for answer in answers:
     print(answer)
-  
+  return score
