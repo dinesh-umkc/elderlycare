@@ -6,7 +6,7 @@ import uuid
 
 app = FastAPI()
 
-class Question:
+class Question():
   questionId: str
   questionText: str
   answerText: str
@@ -14,7 +14,12 @@ class Question:
         self.questionId = qId
         self.questionText = qText
         self.answerText = aText
-  
+
+class Answer(BaseModel):
+  questionId: str
+  questionText: str
+  answerText: str
+
 
 @app.get("/")
 def hello():
@@ -30,3 +35,9 @@ async def getQuestions():
     print(row['question'],row['answer'] )
     questions.append(Question(uuid.uuid4().hex,row['question'], row['answer']))
   return questions
+
+@app.post("/answers/")
+def computeScore(answers: List[Answer]):
+  for answer in answers:
+    print(answer)
+  
