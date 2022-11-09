@@ -4,6 +4,7 @@ FastAPI is used for rest services
 
         pip install fastapi
         pip install uvicorn
+        pip install sentence-transformers
 
 - Step 2 - Go to the project folder in command prompt
 - Step 3 - execute

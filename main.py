@@ -4,6 +4,12 @@ from typing import List
 import pandas as pd
 import uuid
 
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+
+import numpy as np
+import pandas as pd
+
 app = FastAPI()
 
 class Question():
@@ -21,11 +27,6 @@ class Answer(BaseModel):
   answerText: str
 
 
-@app.get("/")
-def hello():
-  return {"Hello Everyone!"}
-
-
 @app.get("/questions")
 async def getQuestions():
   questions=[]
@@ -38,7 +39,17 @@ async def getQuestions():
 
 @app.post("/answers")
 def computeScore(answers: List[Answer]):
-  score = 75
+  model = SentenceTransformer('bert-base-nli-mean-tokens')
+  score=0
   for answer in answers:
-    print(answer)
+    questionEcoding = model.encode(answer.questionText)
+    answerEcoding = model.encode(answer.answerText)
+    sim_arr=cosine_similarity([questionEcoding],[answerEcoding])
+    print('question:',answer.questionText)
+    print('answer:',answer.answerText)
+    print('sim_arr:',sim_arr)
+    if(sim_arr>0.5):
+      score=score+1
+    print('score:',score)
+  finalScore = (score/(len(answers)))*100
   return score
