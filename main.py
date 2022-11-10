@@ -14,7 +14,10 @@ import numpy as np
 import pandas as pd
 
 app = FastAPI()
-
+# load pretrained model and a pretrained tokenizer
+model = BertForNextSentencePrediction.from_pretrained('bert-base-cased')
+tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
+  
 class Question():
   questionId: str
   questionText: str
@@ -42,9 +45,6 @@ async def getQuestions():
 
 @app.post("/answers")
 def computeScore2(answers: List[Answer]):
-  # load pretrained model and a pretrained tokenizer
-  model = BertForNextSentencePrediction.from_pretrained('bert-base-cased')
-  tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
   score=0
   for answer in answers:
     encoded = tokenizer.encode_plus(answer.questionText, text_pair=answer.answerText, return_tensors='pt')
