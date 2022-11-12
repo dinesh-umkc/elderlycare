@@ -1,50 +1,50 @@
-question,answer
-Did you feel that you forget something?,Sometimes I forget some matters
-"If so, is it happening more than one year? ",It is happening for several years
-Did you repeat some works again and again,I am very good at gardening
-How you manage your appointments? Did you keep notes of that?,I go to park everyday
-How do you keep your house chores? Do you arrange them?,I always keep in my arrangement
-Do you suspect someone is conspiring or stealing your property?,I think my daughter in law is conspiring
-When is your birthday?,I am very good at gardening
-Do you like new places?,"Every Sunday, I cook"
-What you do when you travel?,I always take picture
-Do you prefer to count money?,I always love reading
-how you handle your financial matter?,I live on my pensions
-do you take your medication regularly?,I hate my medications
-Do you feel trouble during driving?,I don't drive. My hands shake
-"Do you use all your house appliance like oven, clock, stove?",I like to drive
-Do you clean your house?,I clean my house evryday
-do you like to do crafts like sewing?,I sew a sweater for my son
-Do you recognize your home after taking a walk?,I get tired after walking
-Do you recognize directions while you drive?,I don't drive. My hands shake
-Can you remember all your sons' name,I can remember what God says
-Can you remember who is your eldest son?,Adam is very naughty.
-Can you remember all the names of your sons and daughters?,I can remember all the names.
-Do you repeat in asking same questions?,I ask questions
-do you remember all your appointments?,Sometimes I forget 
-"Do you write bank checks, pay bills?",I don't write checks
-Do you shop?,I like traveling
-do you take medications according to instructions?,sometime I forget
-do you get lost while walking or driving in familiar places?,I love traveling
-Are you basically satisfied with your life?,I love my coat
-Have you dropped many of your activities and interests?,I have to drop some of my hobbies
-Do you feel that your life is empty?,I love my life
-Do you often get bored?,I hate my life
-Are you in good spirits most of the time?,I hate my life
-Are you afraid that something bad is going to happen to you?,I hate spiders
-Do you feel happy most of the time? ,I feel happy all the time
-Do you often feel helpless?,I feel helpless all the time
-"Do you prefer to stay at home, rather than going out and doing new things?",I prefer to stay at home
-Do you feel you have more problems with memory than most? ,I don't think so
-Do you think it is wonderful to be alive now? ,Life is beautiful
-Do you feel pretty worthless the way you are now?,I hate myself
-Do you feel full of energy?,I feel always weak
-Do you feel that your situation is hopeless?,I always pray
-Do you think that most people are better off than you are?,I don't think so
-Last time where you go for a visit?,I don�t travel far
-"Can you assemble tax records, business affairs, or papers?",I can't do that
-"can you shop alone for clothes, household necessities, or groceries",I like shopping
-"do you play a game of skill, work on a hobby",I just sleep
-"do you heat water, make a cup of coffee, turn off stove",I love cooking
-do you prepare a balanced meal,I always cook
-do you keep track of current events,sometimes I forget
+question,answer,Result
+Did you feel that you forget something?,Sometimes I forget some matters,1
+"If so, is it happening more than one year? ",It is happening for several years,1
+Did you repeat some works again and again,I am very good at gardening,0
+How you manage your appointments? Did you keep notes of that?,I go to park everyday,0
+How do you keep your house chores? Do you arrange them?,I always keep in my arrangement,1
+Do you suspect someone is conspiring or stealing your property?,I think my daughter in law is conspiring,1
+When is your birthday?,I am very good at gardening,0
+Do you like new places?,"Every Sunday, I cook",0
+What you do when you travel?,I always take picture,0
+Do you prefer to count money?,I always love reading,0
+how you handle your financial matter?,I live on my pensions,1
+do you take your medication regularly?,I hate my medications,1
+Do you feel trouble during driving?,I don't drive. My hands shake,1
+"Do you use all your house appliance like oven, clock, stove?",I like to drive,0
+Do you clean your house?,I clean my house everyday,1
+do you like to do crafts like sewing?,I sew a sweater for my son,1
+Do you recognize your home after taking a walk?,I get tired after walking,1
+Do you recognize directions while you drive?,I don't drive. My hands shake,1
+Can you remember all your sons' name,I can remember what God says,1
+Can you remember who is your eldest son?,Adam is very naughty.,0
+Can you remember all the names of your sons and daughters?,I can remember all the names.,1
+Do you repeat in asking same questions?,I ask questions,1
+do you remember all your appointments?,Sometimes I forget ,1
+"Do you write bank checks, pay bills?",I don't write checks,1
+Do you shop?,I like traveling,0
+do you take medications according to instructions?,sometime I forget,1
+do you get lost while walking or driving in familiar places?,I love traveling,0
+Are you basically satisfied with your life?,I love my coat,0
+Have you dropped many of your activities and interests?,I have to drop some of my hobbies,1
+Do you feel that your life is empty?,I love my life,1
+Do you often get bored?,I hate my life,0
+Are you in good spirits most of the time?,I hate my life,0
+Are you afraid that something bad is going to happen to you?,I hate spiders,0
+Do you feel happy most of the time? ,I feel happy all the time,1
+Do you often feel helpless?,I feel helpless all the time,1
+"Do you prefer to stay at home, rather than going out and doing new things?",I prefer to stay at home,1
+Do you feel you have more problems with memory than most? ,I don't think so,1
+Do you think it is wonderful to be alive now? ,Life is beautiful,1
+Do you feel pretty worthless the way you are now?,I hate myself,1
+Do you feel full of energy?,I feel always weak,1
+Do you feel that your situation is hopeless?,I always pray,0
+Do you think that most people are better off than you are?,I don't think so,1
+Last time where you go for a visit?,I don�t travel far,1
+"Can you assemble tax records, business affairs, or papers?",I can't do that,1
+"can you shop alone for clothes, household necessities, or groceries",I like shopping,0
+"do you play a game of skill, work on a hobby",I just sleep,1
+"do you heat water, make a cup of coffee, turn off stove",I love cooking,0
+do you prepare a balanced meal,I always cook,0
+do you keep track of current events,sometimes I forget,1

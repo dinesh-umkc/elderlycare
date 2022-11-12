@@ -61,19 +61,4 @@ def computeScore2(answers: List[Answer]):
   finalScore = (score/(len(answers)))*100
   return finalScore
 
-@app.post("/answersOld")
-def computeScore(answers: List[Answer]):
-  model = SentenceTransformer('bert-base-nli-mean-tokens')
-  score=0
-  for answer in answers:
-    questionEcoding = model.encode(answer.questionText)
-    answerEcoding = model.encode(answer.answerText)
-    sim_arr=cosine_similarity([questionEcoding],[answerEcoding])
-    print('question:',answer.questionText)
-    print('answer:',answer.answerText)
-    print('sim_arr:',sim_arr)
-    if(sim_arr>0.5):
-      score=score+1
-    print('score:',score)
-  finalScore = (score/(len(answers)))*100
-  return score
+
