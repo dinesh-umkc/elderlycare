@@ -11,4 +11,10 @@ FastAPI is used for rest services
 
         uvicorn main:app --reload
 
+YouTube Video 
+https://youtu.be/mGIpDaOUegY
+
+Unity Project
+Elderly care - Google Drive
+https://drive.google.com/drive/folders/1MFRn76SQIOJnVPhWJRlj8P1SesNFoyXc
 
